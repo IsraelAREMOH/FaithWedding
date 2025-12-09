@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+:root {
+  --font-body: "Montserrat", system-ui, Arial, sans-serif;
+  --font-script: "Allura", cursive;
+  --font-decorative: "Great Vibes", cursive;
+
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: #9caf88;
+  margin: 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #f5f5dc !important;
+  background-color: #9caf88 !important;
+  border-radius: 50% !important;
+  width: 20px !important;
+  height: 20px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 8px !important;
+
+  font-weight: bold !important;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #9caf88 !important;
+  color: #fff !important;
+  transform: scale(1.05) !important;
+}
+
+.swiper-button-disabled {
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+}
+
+/*  Target only the hotel image Swiper */
+.hotel-image-swiper .swiper-pagination-bullet {
+  background-color: #f5f5dc;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px !important;
+  transition: all 0.3s ease;
+}
+
+.hotel-image-swiper .swiper-pagination-bullet-active {
+  background-color: #d4af37;
+  width: 20px;
+  border-radius: 8px;
+}
+.hotel-image-swiper .swiper-pagination {
+  bottom: 8px !important;
+}
+
+.couple .swiper-pagination .swiper-pagination-bullet {
+  background-color: #9caf88;
+  margin: 0;
+}
+
+.couple .swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #9caf88;
+}
+
+@media (max-width: 399px) {
+  .couple .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
