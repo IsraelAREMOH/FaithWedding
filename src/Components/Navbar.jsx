@@ -21,7 +21,7 @@ const Navbar = () => {
       ? "text-[#9CAF88] font-semibold border-b-2 border-[#9AC791] pb-1"
       : "hover:text-";
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
+    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b bg-white border-neutral-700/80">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
