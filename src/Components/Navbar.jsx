@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { navItems } from "../constants";
 import { Menu } from "lucide-react";
 import { NavLink } from "react-router-dom";
@@ -8,6 +8,13 @@ import RsvpModal from "./RsvpModal";
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const openListener = () => setOpen(true);
+    window.addEventListener("open-rsvp", openListener);
+
+    return () => window.removeEventListener("open-rsvp", openListener);
+  }, []);
 
   const getNavLinkClass = ({ isActive }) =>
     isActive

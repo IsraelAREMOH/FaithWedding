@@ -54,13 +54,15 @@ const Nav_DrawerMenu = ({ isOpen, onClose, navItems }) => {
 
             {/* RSVP Button */}
             <div className="mt-10">
-              <NavLink
-                to="/contact"
-                onClick={onClose}
-                className="block bg-gradient-to-r from-[#9CAF88] to-[#9AC791] py-3 px-4 rounded-md text-center font-medium text-black"
+              <button
+                onClick={() => {
+                  onClose(); // close drawer
+                  window.dispatchEvent(new CustomEvent("open-rsvp")); // open modal
+                }}
+                className="block w-full bg-gradient-to-r from-[#9CAF88] to-[#9AC791] py-3 px-4 rounded-md text-center font-medium text-black"
               >
                 RSVP
-              </NavLink>
+              </button>
             </div>
           </Motion.div>
         </div>
