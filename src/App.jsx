@@ -7,12 +7,14 @@ import StyleIdeas from "./Pages/Stylepage";
 import OurStory from "./Pages/OurStory";
 import Moment from "./Pages/Moment";
 import Gallery from "./Pages/Gallery";
+import ScrollHandler from "./Components/ScrollHandler";
 
 const App = () => {
   return (
     <>
       <Router>
         <Navbar />
+        <ScrollHandler />
         <Routes>
           <Route index element={<Home />} />
           <Route path="/rsvp" element={<Home />} />

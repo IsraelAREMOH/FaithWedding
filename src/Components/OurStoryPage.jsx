@@ -1,5 +1,3 @@
-{
-  /** 
 import { Link } from "react-router-dom";
 
 const OurStoryPage = () => {
@@ -21,16 +19,14 @@ const OurStoryPage = () => {
       <div className="max-w-5xl mx-auto grid grid-rows-1 px-6 md:px-16 py-16">
         <div className="justify-self-start text-left max-w-xl">
           <blockquote className="text-xl md:text-2xl italic font-light">
-            “I saw her across a reception hall and I couldn’t look away until I
-            had the guts to talk to her.”
+            Coming soon
             <footer className="mt-4 text-sm text-[#6F4E37]">— Chukwudi</footer>
           </blockquote>
         </div>
 
         <div className="justify-self-end text-right max-w-xl mt-4 md:mt-24">
           <blockquote className="text-xl md:text-2xl italic font-light">
-            “We caught eye contact at one point and I was mesmerized by that
-            addicting smile of his.”
+            Coming Soon
             <footer className="mt-4 text-sm text-[#6F4E37]">— Faith</footer>
           </blockquote>
         </div>
@@ -51,27 +47,12 @@ const OurStoryPage = () => {
           </div>
 
           <div className="relative z-10 -mt-10 lg:-ml-16 bg-[#9CAF88] text-white p-6 md:p-8 rounded-md shadow-xl w-full max-w-md">
-            <p className="mb-4 text-sm leading-relaxed">
-              We’re here for the dreamers, the doers, and the storytellers.
-              Whether you're an independent creative, a brand, or a production
-              team — we provide the tools, space, and expertise to help you
-              shine.
-            </p>
-
-            <p className="text-sm font-semibold mb-1">We Serve:</p>
-
-            <p className="text-sm mb-4 leading-relaxed">
-              Photographers & Filmmakers, Content Creators & Influencers,
-              Agencies & Brands, Musicians & Podcasters, Students & Educators in
-              Media.
-            </p>
-
-            <p className="text-sm mb-4">
-              Wherever you are in your creative journey, we meet you there.
-            </p>
+            <p className="mb-4 text-sm leading-relaxed">Coming Soon</p>
+            <p className="text-sm mb-4 leading-relaxed">Coming Soon</p>
+            <p className="text-sm mb-4">Coming Soon</p>
 
             <button className="bg-gray-900 hover:bg-[#B59410] transition px-4 py-2 rounded text-sm">
-              <Link to="/gallery">Moments</Link>
+              <Link to="/moment">Moments</Link>
             </button>
           </div>
         </div>
@@ -81,5 +62,3 @@ const OurStoryPage = () => {
 };
 
 export default OurStoryPage;
-*/
-}
