@@ -1,9 +1,10 @@
+{
+  /** 
 import { Link } from "react-router-dom";
 
 const OurStoryPage = () => {
   return (
     <section className="bg-gray-100 text-gray-900">
-      {/* Top Section - How it all began */}
       <div className="max-w-6xl mx-auto px-6 md:px-16 py-12 text-center">
         <h2 className="text-2xl md:text-3xl font-light mb-6">
           The Beginning of Our Forever
@@ -17,18 +18,15 @@ const OurStoryPage = () => {
         </div>
       </div>
 
-      {/* Quotes Section */}
       <div className="max-w-5xl mx-auto grid grid-rows-1 px-6 md:px-16 py-16">
-        {/* First Quote - Top Left */}
         <div className="justify-self-start text-left max-w-xl">
           <blockquote className="text-xl md:text-2xl italic font-light">
             “I saw her across a reception hall and I couldn’t look away until I
             had the guts to talk to her.”
-            <footer className="mt-4 text-sm text-[#6F4E37]">— Chucks</footer>
+            <footer className="mt-4 text-sm text-[#6F4E37]">— Chukwudi</footer>
           </blockquote>
         </div>
 
-        {/* Second Quote - Bottom Right */}
         <div className="justify-self-end text-right max-w-xl mt-4 md:mt-24">
           <blockquote className="text-xl md:text-2xl italic font-light">
             “We caught eye contact at one point and I was mesmerized by that
@@ -38,16 +36,12 @@ const OurStoryPage = () => {
         </div>
       </div>
 
-      {/* Story Section */}
       <section className="bg-white py-12 px-4 md:px-12 lg:px-24 space-y-16">
-        {/* Header */}
         <h2 className="text-center text-xl md:text-2xl font-semibold text-gray-600">
           Share <span className="text-[#9CAF88] font-semibold">Our Story</span>
         </h2>
 
-        {/* Top Section */}
         <div className="relative flex flex-col lg:flex-row items-start lg:items-center justify-center lg:justify-start">
-          {/* Camera Image */}
           <div className="relative w-full lg:w-[40%] min-w-[280px]">
             <img
               src="https://res.cloudinary.com/dtjwzjgx6/image/upload/v1764892053/FaithEngagement12_wzstnn.jpg"
@@ -56,7 +50,6 @@ const OurStoryPage = () => {
             />
           </div>
 
-          {/* Green Card (Intentional Overlay Design) */}
           <div className="relative z-10 -mt-10 lg:-ml-16 bg-[#9CAF88] text-white p-6 md:p-8 rounded-md shadow-xl w-full max-w-md">
             <p className="mb-4 text-sm leading-relaxed">
               We’re here for the dreamers, the doers, and the storytellers.
@@ -88,3 +81,5 @@ const OurStoryPage = () => {
 };
 
 export default OurStoryPage;
+*/
+}
