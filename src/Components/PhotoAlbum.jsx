@@ -2,7 +2,7 @@ import { images } from "../constants/index";
 
 const PhotoAlbum = () => {
   return (
-    <div className="min-h-screen bg-center flex flex-col items-center justify-center p-6 text-gray-100">
+    <div className="min-h-screen bg-center bg-gray-100 flex flex-col items-center justify-center p-6 text-gray-100">
       {/* Header Section */}
       <div className="text-center mb-20 animate-fade-in">
         <h1
