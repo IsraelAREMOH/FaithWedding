@@ -10,10 +10,10 @@ const Nav_DrawerMenu = ({ isOpen, onClose, navItems }) => {
           {/* Overlay */}
           <Motion.div
             initial={{ opacity: 0 }}
-            animate={{ opacity: 0.5 }}
+            animate={{ opacity: 0.4 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="absolute inset-0 bg-gray-100"
+            className="absolute inset-0 bg-black/40 backdrop-blur-sm"
           />
 
           {/* Drawer */}
@@ -21,45 +21,60 @@ const Nav_DrawerMenu = ({ isOpen, onClose, navItems }) => {
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
-            transition={{ duration: 0.3 }}
-            className="absolute top-0 right-0 h-full w-3/4 sm:w-2/5 bg-black/90 text-white shadow-xl p-8 z-50"
+            transition={{ duration: 0.35, ease: "easeOut" }}
+            className="absolute top-0 right-0 h-full w-3/4 sm:w-2/5 
+                       bg-black/60 backdrop-blur-xl 
+                       text-white shadow-2xl p-8 z-50
+                       border-l border-[#B59410]/40"
           >
             {/* Close Button */}
             <div className="flex justify-end">
-              <button onClick={onClose} aria-label="Close Menu">
-                <X size={28} className="text-[#B59410]" />
+              <button
+                onClick={onClose}
+                aria-label="Close Menu"
+                className="p-2 rounded-full hover:bg-white/10 transition"
+              >
+                <X size={26} className="text-[#B59410]" />
               </button>
             </div>
 
-            {/* Menu Items */}
-            <ul className="mt-10 text-black font-semibold space-y-2 text-lg tracking-wide">
-              {navItems.map((item, index) => (
-                <li key={index}>
-                  <NavLink
-                    to={item.href}
-                    onClick={onClose}
-                    className={({ isActive }) =>
-                      `block transition ${
-                        isActive
-                          ? "text-[#B59410] font-semibold"
-                          : "hover:text-[#B59410]"
-                      }`
-                    }
-                  >
-                    {item.label}
-                  </NavLink>
-                </li>
-              ))}
-            </ul>
+            {/* Menu Section */}
+            <div className="mt-10">
+              <ul
+                className="space-y-3 text-lg font-bold tracking-wide 
+                             bg-gradient-to-b from-[#9CAF88]/15 to-[#9CAF88]/5 
+                             p-5 rounded-xl border border-[#B59410]/20 shadow-sm"
+              >
+                {navItems.map((item, index) => (
+                  <li key={index}>
+                    <NavLink
+                      to={item.href}
+                      onClick={onClose}
+                      className={({ isActive }) =>
+                        `block px-5 py-3 rounded-lg transition-all duration-200 ${
+                          isActive
+                            ? "bg-[#B59410]/90 text-white shadow-md"
+                            : "hover:bg-[#9CAF88]/25 hover:text-[#B59410]"
+                        }`
+                      }
+                    >
+                      {item.label}
+                    </NavLink>
+                  </li>
+                ))}
+              </ul>
+            </div>
 
             {/* RSVP Button */}
             <div className="mt-10">
               <button
                 onClick={() => {
-                  onClose(); // close drawer
-                  window.dispatchEvent(new CustomEvent("open-rsvp")); // open modal
+                  onClose();
+                  window.dispatchEvent(new CustomEvent("open-rsvp"));
                 }}
-                className="block w-full bg-gradient-to-r from-[#9CAF88] to-[#9AC791] py-3 px-4 rounded-md text-center font-medium text-black"
+                className="block w-full bg-gradient-to-r from-[#9CAF88] to-[#9AC791] 
+                           py-3 px-4 rounded-lg text-center font-semibold text-black
+                           shadow-md hover:shadow-lg transition"
               >
                 RSVP
               </button>
