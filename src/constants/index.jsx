@@ -9,7 +9,7 @@ import New1 from "../assets/New1.jpg";
 import New2 from "../assets/New2.jpg";
 import Paletinos from "../assets/Paletinos.jpg";
 import Paletinos1 from "../assets/Paletinos1.jpg";
-import Paletinos2 from "../assets/Paletinos2.jpg";
+import paletinos2 from "../assets/paletinos2.jpg";
 import Paletinos3 from "../assets/Paletinos3.jpg";
 import Shortlet from "../assets/Shortlet.jpg";
 import Shortlet1 from "../assets/Shortlet1.jpg";
@@ -77,7 +77,7 @@ export const HotelImage = [
   { src: New2 },
   { src: Paletinos },
   { src: Paletinos1 },
-  { src: Paletinos2 },
+  { src: paletinos2 },
   { src: Paletinos3 },
   { src: Shortlet },
   { src: Shortlet1 },
