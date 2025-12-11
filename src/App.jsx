@@ -15,7 +15,7 @@ const App = () => {
       <Router>
         <Navbar />
         <ScrollHandler />
-        <Routes>
+        <Routes className="bg-gray-100">
           <Route index element={<Home />} />
           <Route path="/rsvp" element={<Home />} />
           <Route path="travel" element={<Accommodation />} />

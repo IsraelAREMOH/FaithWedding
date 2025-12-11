@@ -13,7 +13,7 @@ const Nav_DrawerMenu = ({ isOpen, onClose, navItems }) => {
             animate={{ opacity: 0.5 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="absolute inset-0 bg-black"
+            className="absolute inset-0 bg-gray-100"
           />
 
           {/* Drawer */}

@@ -2,7 +2,7 @@ import { moments } from "../constants/index";
 
 function MomentCouple() {
   return (
-    <div className="min-h-screen bg-center flex flex-col items-center justify-center p-6 text-gray-100">
+    <div className="bg-gray-100 min-h-screen bg-center flex flex-col items-center justify-center p-6 text-gray-100">
       {/*  Elegant Masonry Gallery */}
       <div className="relative bg-[#fffdfc] py-8">
         {/* Header */}
