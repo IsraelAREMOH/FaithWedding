@@ -43,6 +43,7 @@ export const navItems = [
   { label: "Accommondation", href: "/travel" },
   { label: "Style Ideals", href: "/stylepage" },
   { label: "Moment", href: "/moment" },
+  { label: "Gallery", href: "/gallery" },
 ];
 
 export const images = [
