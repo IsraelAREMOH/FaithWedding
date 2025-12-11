@@ -150,7 +150,7 @@ export default function RsvpModal({ open, onClose }) {
                     name="attending"
                     value={form.attending}
                     onChange={handleChange}
-                    className="w-full border-b-2 border-gray-300 focus:border-[#d4af37] outline-none bg-transparent py-3 text-lg appearance-none"
+                    className="w-full text-gray-500 border-b-2 border-gray-300 focus:border-[#d4af37] outline-none bg-transparent py-3 text-lg appearance-none"
                   >
                     <option value="">Select</option>
                     <option value="Yes">Yes</option>
