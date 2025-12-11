@@ -43,7 +43,6 @@ export const navItems = [
   { label: "Accommondation", href: "/travel" },
   { label: "Style Ideals", href: "/stylepage" },
   { label: "Moment", href: "/moment" },
-  { label: "Gallery", href: "/gallery" },
 ];
 
 export const images = [
@@ -123,6 +122,11 @@ export const moments = [
     image:
       "https://res.cloudinary.com/dtjwzjgx6/image/upload/v1764875224/FaithEngagement5_qsylyn.jpg",
   },
+  {
+    image:
+      "https://res.cloudinary.com/dtjwzjgx6/image/upload/v1765471430/FaithEngagement2_myctkg.jpg",
+  },
+
   {
     image:
       "https://res.cloudinary.com/dtjwzjgx6/image/upload/v1764892338/FaithEngagement10_nflnop.jpg",

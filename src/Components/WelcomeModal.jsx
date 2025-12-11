@@ -67,7 +67,7 @@ export default function WelcomeModal() {
               rounded-2xl 
               shadow-2xl 
               max-w-sm 
-              w-[90%] 
+              w-[85%] 
               mx-2 
               text-center
               border-[#B59410]

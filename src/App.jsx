@@ -6,7 +6,6 @@ import Accommodation from "./Pages/Accommodation";
 import StyleIdeas from "./Pages/Stylepage";
 import OurStory from "./Pages/OurStory";
 import Moment from "./Pages/Moment";
-import Gallery from "./Pages/Gallery";
 import ScrollHandler from "./Components/ScrollHandler";
 
 const App = () => {
@@ -22,7 +21,6 @@ const App = () => {
           <Route path="stylepage" element={<StyleIdeas />} />
           <Route path="ourstory" element={<OurStory />} />
           <Route path="moment" element={<Moment />} />
-          <Route path="gallery" element={<Gallery />} />
         </Routes>
         <Footer />
       </Router>
