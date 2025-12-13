@@ -131,7 +131,7 @@ export default function RsvpModal({ open, onClose }) {
                       placeholder=" "
                       required={field.required}
                       min={field.min}
-                      className="peer w-full border-b-2 border-gray-300 focus:border-[#d4af37] outline-none bg-transparent py-3 text-lg"
+                      className="peer w-full border-b-2 text-gray-500 border-gray-300 focus:border-[#d4af37] outline-none bg-transparent py-3 text-lg"
                     />
                     <label className="absolute left-0 top-3 text-gray-500 transition-all duration-300 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-focus:-translate-y-6 peer-focus:text-sm peer-focus:text-[#d4af37] peer-valid:-translate-y-6 peer-valid:text-sm">
                       {field.label}
