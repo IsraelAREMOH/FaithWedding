@@ -25,7 +25,7 @@ export default function RsvpModal({ open, onClose }) {
       newErrors.name = "Name is required";
     }
 
-    // Nigerian phone validation (optional)
+    
     const phonePattern = /^(?:\+234|0|234)?[789][01]\d{8}$/;
     if (form.phone && !phonePattern.test(form.phone)) {
       newErrors.phone = "Enter a valid phone number";
@@ -51,7 +51,7 @@ export default function RsvpModal({ open, onClose }) {
     if (!validateForm()) return; // stop if invalid
 
     try {
-      await axios.post("http://localhost:5000/api/rsvp", form);
+      await axios.post(`${import.meta.env.VITE_API_URL}/rsvp`, form);
 
       setSuccess(true);
 
