@@ -42,7 +42,7 @@ const Nav_DrawerMenu = ({ isOpen, onClose, navItems }) => {
             <div className="mt-10">
               <ul
                 className="space-y-3 text-lg font-bold tracking-wide 
-                             bg-gradient-to-b from-[#9CAF88]/15 to-[#9CAF88]/5 
+                             bg-gradient-to-b from-[#9CAF88]/70 to-[#9CAF88]/50
                              p-5 rounded-xl border border-[#B59410]/20 shadow-sm"
               >
                 {navItems.map((item, index) => (
