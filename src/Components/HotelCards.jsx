@@ -15,6 +15,7 @@ const HotelCards = () => {
       rating: "★★★",
       bookBefore: "Dec 20, 2025",
       rate: 50,
+      link: "https://thepaletinos.com.ng/",
       images: HotelImage.slice(19, 21).map((img) => img.src),
     },
     {
@@ -27,6 +28,7 @@ const HotelCards = () => {
       rating: "★★★★",
       bookBefore: "Dec 23, 2025",
       rate: 40,
+      link: "https://luxuryshortlet.com",
       images: HotelImage.slice(14, 16).map((img) => img.src),
     },
     {
@@ -39,6 +41,7 @@ const HotelCards = () => {
       rating: "★★",
       bookBefore: "Dec 20, 2025",
       rate: 35,
+      link: "https://divinehotel.com.ng",
       images: HotelImage.slice(4, 6).map((img) => img.src),
     },
   ];
@@ -103,12 +106,16 @@ const HotelCards = () => {
             {/* Button Section */}
             <div className="p-4 pt-0">
               <a
-                href="https://thepaletinos.com.ng/"
+                href={hotel.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
               >
-                <button className="w-full bg-gray-900 text-white py-2 rounded-full text-sm font-medium transition-all duration-200 hover:bg-gray-800 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-600">
+                <button disabled={!hotel.link}
+  className={`w-full py-2 rounded-full text-sm font-medium transition-all
+  ${hotel.link
+    ? "bg-gray-900 text-white hover:bg-gray-800 hover:scale-105"
+    : "bg-gray-300 text-gray-500 cursor-not-allowed"}`}>
                   Check it out online
                 </button>
               </a>

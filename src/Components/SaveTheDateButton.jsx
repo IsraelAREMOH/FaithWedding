@@ -1,9 +1,9 @@
 import { motion as Motion } from "framer-motion";
 
 const SaveTheDateButton = ({
-  title = "Jennifer & Aisosa's Wedding Celebration",
-  location = "Benin, Nigeria",
-  startDate = "2025-11-29T12:00:00+01:00",
+  title = "Faith & Chuckwudi's Wedding Celebration",
+  location = "Umuahia, Abia State, Nigeria",
+  startDate = "2025-12-29T12:00:00+01:00",
   endDate = "2025-11-29T21:00:00+01:00",
   bgColor = "bg-[#9CAF88]",
   hoverColor = "hover:bg-[#9AC791]",
