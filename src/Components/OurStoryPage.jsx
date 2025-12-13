@@ -18,14 +18,14 @@ const OurStoryPage = () => {
 
       <div className="max-w-5xl mx-auto grid grid-rows-1 px-6 md:px-16 py-16">
         <div className="justify-self-start text-left max-w-xl">
-          <blockquote className="text-xl md:text-2xl italic font-light">
+          <blockquote className="text-sm md:text-2xl italic font-light">
           I first met Faith when she accompanied someone on a visit to my mum, and I thought to myself, what a priceless gem we have here. Fast forward to years later, I looked her up on Facebook and messaged her. The rest, as they say, is history.
             <footer className="mt-4 text-sm text-[#6F4E37]">— Chukwudi</footer>
           </blockquote>
         </div>
 
         <div className="justify-self-end text-right max-w-xl mt-4 md:mt-24">
-          <blockquote className="text-xl md:text-2xl italic font-light">
+          <blockquote className="text-sm md:text-2xl italic font-light">
           Yes, it was true that I visited; he was really polite, respectful, and charmingly cute. We vibed really well when he contacted me on Facebook, and I'm happy to be sharing the rest of my life with him.
             <footer className="mt-4 text-sm text-[#6F4E37]">— Faith</footer>
           </blockquote>
