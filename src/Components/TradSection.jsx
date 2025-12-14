@@ -44,7 +44,7 @@ export default function TradSection() {
         </div>
 
         {/* TEXT SECTION */}
-        <div>
+        <div className="text-center md:text-left flex flex-col items-center md:items-start">
           <h2 className="text-2xl md:text-3xl font-semibold leading-tight mb-2">
             Traditional Wedding
           </h2>
