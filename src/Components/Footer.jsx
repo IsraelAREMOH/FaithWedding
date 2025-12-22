@@ -107,6 +107,7 @@ const Footer = () => {
           <p>Questions?</p>
           <p>RSVP: +2347038478628</p>
           <p>We’d love to hear from you ❤️</p>
+          
         </div>
 
         {/* Venue */}

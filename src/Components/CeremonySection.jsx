@@ -66,7 +66,7 @@ const Project_MovieSec = () => {
             <p>Opposite Goodshade oil Market, Umuahia</p>
             <p>Time 10 : 00am</p>
             <a
-              href="https://www.google.com/maps/dir/Lagos/Assemblies+Of+God+Church,+FGXQ%2BGQ7,+Government+College,+Umuahia+440103,+Abia/@6.1928316,4.1275262,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x103b8b2ae68280c1:0xdc9e87a367c3d9cb!2m2!1d3.3552568!2d6.6137395!1m5!1m1!1s0x1042c550ce612b4f:0xe7f7ec4739b5b810!2m2!1d7.53943!2d5.4987766?authuser=0&entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"
+              href="https://maps.app.goo.gl/fnNDXz7dx7B6NGct7?g_st=iw"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
@@ -134,7 +134,7 @@ const Project_MovieSec = () => {
             <p>Umuahia</p>
             <p>Time 1 : 00pm</p>
             <a
-              href="https://www.google.com/maps/dir/Lagos/International+Conference+Centre+Umuahia,+Govt.+Station,+Umuahia/@6.2026025,4.1161624,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x103b8b2ae68280c1:0xdc9e87a367c3d9cb!2m2!1d3.3552568!2d6.6137395!1m5!1m1!1s0x1042dca583b6d94b:0xfc095798ce4473bb!2m2!1d7.5168019!2d5.5250659?authuser=0&entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"
+              href="https://maps.app.goo.gl/2a4ULm8KdM39JgT77?g_st=iw"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
