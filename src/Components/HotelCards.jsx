@@ -47,7 +47,7 @@ const HotelCards = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-6 bg-linear-to-br from-gray-50 to-white min-h-screen">
+    <div className="container mx-auto px-4 py-6 bg-linear-to-br from-gray-50 to-white">
       {/* Responsive grid: 1 col on mobile, 2 on tablets, 3 on large screens */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {hotels.map((hotel) => (
