@@ -2,7 +2,7 @@ import HotelImages from "../Components/HotelImages";
 
 const HotelSlide = ({ hotel, setHoveredInfo }) => {
   return (
-    <div className="bg-white p-3 sm:p-4 rounded-xl flex flex-col justify-between h-full shadow-md">
+    <div className="bg-white p-3 sm:p-4 rounded-xl flex flex-col shadow-md">
       {/*  Image Carousel */}
       <div className="relative mb-3 sm:mb-4">
         <HotelImages hotel={hotel} setHoveredInfo={setHoveredInfo} />
@@ -21,7 +21,7 @@ const HotelSlide = ({ hotel, setHoveredInfo }) => {
           </div>
         </div>
 
-        <div className="mt-3 sm:mt-4 flex flex-col sm:flex-row justify-between items-center sm:items-end gap-2">
+        <div className="mt-auto pt-4 flex flex-col sm:flex-row justify-between items-center sm:items-end gap-2">
           <p className="text-xs sm:text-sm text-gray-600">
             Book before <span className="font-medium">{hotel.bookBefore}</span>
           </p>
