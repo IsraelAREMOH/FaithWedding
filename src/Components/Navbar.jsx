@@ -27,7 +27,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex flex-col sm:flex-row items-center sm:items-baseline text-center sm:text-left shrink-0">
             <h4
-              className="text-4xl sm:text-5xl md:text-5xl text-[#B59410] lg:text-6xl"
+              className="text-4xl sm:text-5xl md:text-5xl text-[#B59410] lg:text-5xl xl:text-6xl"
               style={{ fontFamily: "'Allura', cursive", fontDisplay: "swap" }}
             >
               F & C
@@ -37,7 +37,7 @@ const Navbar = () => {
             </p>
           </div>
           {/* Desktop Nav Links */}
-          <ul className="hidden lg:flex ml-10 space-x-10">
+          <ul className="hidden xl:flex ml-10 space-x-10">
             {navItems.map((item, index) => (
               <li key={index}>
                 <NavLink className={getNavLinkClass} to={item.href}>
@@ -48,7 +48,7 @@ const Navbar = () => {
           </ul>
 
           {/* Desktop CTA Button */}
-          <div className="hidden lg:flex items-center space-x-6">
+          <div className="hidden xl:flex items-center space-x-6">
             <button
               onClick={() => setOpen(true)}
               className="py-2 px-4 rounded-md bg-linear-to-r from-[#9CAF88] to-[#9AC791] text-white hover:opacity-90 transition"
@@ -58,7 +58,7 @@ const Navbar = () => {
           </div>
           <RsvpModal open={open} onClose={() => setOpen(false)} />
           {/* Mobile Menu Button */}
-          <div className="lg:hidden flex items-center">
+          <div className="xl:hidden flex items-center">
             <button
               onClick={() => setDrawerOpen(true)}
               aria-label="Toggle Mobile Menu"
